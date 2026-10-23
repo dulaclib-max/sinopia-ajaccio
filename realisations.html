@@ -281,6 +281,8 @@ footer .about{font-size:.85rem;line-height:1.65;color:rgba(255,255,255,.72);max-
 .faqs summary::after{content:"+";font-family:"Bebas Neue",Impact,sans-serif;font-size:1.7rem;color:var(--orange);line-height:1;flex:none}.faqs details[open] summary::after{content:"\2212"}
 .faqs p{color:var(--granit);margin:.7rem 0 0;max-width:46em;line-height:1.65;font-size:.95rem}
 body[data-page="realisations"] .ph{aspect-ratio:1/1!important}body[data-page="realisations"] .ph.wide{grid-column:span 1}
+.grp{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:2.5rem;align-items:center;margin-top:2rem;max-width:980px}.grp h3{font-family:"Bebas Neue",Impact,sans-serif;font-weight:400;font-size:clamp(1.8rem,3vw,2.6rem);line-height:1;margin:0 0 .9rem}.grp h3 i{font-style:normal;color:var(--orange)}.grp p{color:var(--granit);max-width:34em;margin:0}
+@media (max-width:760px){.grp{grid-template-columns:1fr;gap:1.2rem}}
 @media (max-width:960px){.bar{display:flex}body{padding-bottom:calc(4.4rem + env(safe-area-inset-bottom))}}
 .fx{opacity:0;transform:translateY(26px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
 .fx.in{opacity:1;transform:none}
